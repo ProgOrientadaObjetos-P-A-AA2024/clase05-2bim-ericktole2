@@ -27,8 +27,8 @@ public class TiposTransporte {
     
     public void establecerPromedioTarifas(){
         double suma = 0;
-        for (int i = 0; i < obtenerTransportes().size(); i++) {
-            suma = suma + obtenerTransportes().get(i).obtenerTarifa();
+        for (Transporte e : transportes ){
+        suma += e.obtenerTarifa();
         }
         promedioTarifas = suma / obtenerTransportes().size();
         
