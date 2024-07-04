@@ -21,5 +21,6 @@ public class Principal {
         op1.establecerPromedioEdades();
         
         System.out.printf("%.2f\n", op1.obtenerPromedioEdades());
+        
     }
 }
