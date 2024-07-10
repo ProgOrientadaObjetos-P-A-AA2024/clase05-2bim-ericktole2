@@ -31,6 +31,14 @@ public class TarjetaCredito {
         return numero;
     }
 
+    public Banco obtenerBanco() {
+        return banco;
+    }
+
+    public void establecerBanco(Banco b) {
+        banco = b;
+    }
+
     public void establecerNumero(String num) {
         numero = num;
     }

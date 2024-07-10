@@ -32,7 +32,8 @@ public class EvaluacionEnsayo implements EvaluacionTipoDos {
         return totalProblemas;
     }
     
-    
+    // se trabaja con establecer promedio ya que es neserario para dar una 
+    // logica a los metodos de la interfas 
     @Override
     public void establecerPromedioEnsayo() {
 

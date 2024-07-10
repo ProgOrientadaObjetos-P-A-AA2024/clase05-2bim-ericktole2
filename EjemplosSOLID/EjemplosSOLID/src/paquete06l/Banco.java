@@ -9,10 +9,11 @@ package paquete06l;
  * @author utpl
  */
 public class Banco {
-    private String nombre ;
+
+    private String nombre;
 
     public Banco(String n) {
-       nombre = n;
+        nombre = n;
     }
 
     public String obtenerNombre() {
@@ -22,5 +23,5 @@ public class Banco {
     public void establecerNombre(String n) {
         nombre = n;
     }
-    
+
 }

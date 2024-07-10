@@ -10,7 +10,8 @@ package paquete08i;
  * @author reroes
  */
 public interface EvaluacionTipoUno {
-    
+    // implemets se utiliza para interfaces 
+    // 
     public void establecerPromedioObjetivas();
     public double obtenerPromedioObjetivas();
 }
