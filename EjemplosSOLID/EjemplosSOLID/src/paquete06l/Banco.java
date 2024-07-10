@@ -15,11 +15,11 @@ public class Banco {
        nombre = n;
     }
 
-    public String getNombre() {
+    public String obtenerNombre() {
         return nombre;
     }
 
-    public void setNombre(String n) {
+    public void establecerNombre(String n) {
         nombre = n;
     }
     
