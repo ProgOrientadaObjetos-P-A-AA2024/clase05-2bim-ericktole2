@@ -12,6 +12,7 @@ public class TarjetaCredito {
 
     private String nombre;
     private String numero;
+    private Banco banco ;
 
     public TarjetaCredito(String n, String num) {
         nombre = n;
